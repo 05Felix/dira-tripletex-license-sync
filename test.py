@@ -8,8 +8,6 @@ konto_passord = "Test-1ICnm3EKy"
 
 auth = {"Authorization": f"Basic {main.encodedToken}"}
 
-ids = ["1279487", "1279489", "1279491"]
-
 
 def update(id, count):
     requests.put(base_url + "/order/orderline/" + id, headers=auth, json={"count": count})
