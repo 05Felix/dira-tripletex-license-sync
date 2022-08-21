@@ -3,9 +3,6 @@ import main
 
 base_url = "https://api.tripletex.io/v2"
 
-
-konto_passord = "Test-1ICnm3EKy"
-
 auth = {"Authorization": f"Basic {main.encodedToken}"}
 
 
